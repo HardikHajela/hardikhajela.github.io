@@ -28,6 +28,8 @@
    }
     .et-header__logo {
         color: #000;
+        font-family:  "Lucida Fax";
+        font-size: 24px;
    }
     .et-header__link {
         margin-left: 1em;
