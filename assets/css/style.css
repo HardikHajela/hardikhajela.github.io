@@ -112,13 +112,20 @@
        }
    }
 
-   #hero-bg {
-    background: rgba(0, 128, 0, 0.3) /* Green background with 30% opacity */
-  }
-  #tab-hero {
-    background-image: url("../images/bg02.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center; 
-  }
+   /* #hero-bg {
+     background: rgba(0, 128, 0, 0.3) // Green background with 30% opacity 
+   } */
+
+   #tab-hero {
+     background-image: url("../images/bg02.png");
+     background-repeat: no-repeat;
+     background-size: 100%;
+     /* TO ADD SUPPORT FOR MOBILE DEVICES */
+     background-position: bottom; 
+   }
+
+   #about-img{
+     /* max-width: 100%;
+     height: auto; */
+   }
     
