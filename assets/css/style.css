@@ -111,4 +111,14 @@
             font-size: 1rem;
        }
    }
+
+   #hero-bg {
+    background: rgba(0, 128, 0, 0.3) /* Green background with 30% opacity */
+  }
+  #tab-hero {
+    background-image: url("../images/bg02.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center; 
+  }
     
