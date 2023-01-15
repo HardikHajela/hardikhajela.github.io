@@ -125,7 +125,17 @@
    }
 
    #about-img{
-     /* max-width: 100%;
-     height: auto; */
+     border-radius: 9px;
+   }
+
+   .linel {
+     border-left: 1px solid #c0bcbc;
+     height: 520px;
+     position: absolute;
+     /* TO ADD SUPPORT FOR MOBILE DEVICES, GAYAB */
+   }
+
+   #about-p {
+     text-align: left;
    }
     
