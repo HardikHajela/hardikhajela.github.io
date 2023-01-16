@@ -6,6 +6,7 @@
        text-decoration: none;
    }
 
+   /* NAV BAR */
    .et-header {
        display: flex;
        flex-direction: row;
@@ -35,7 +36,24 @@
        color: #000;
        font-family: "Lucida Fax";
        font-size: 24px;
+
+       /* -webkit-background-clip: text;
+       -webkit-text-fill-color: transparent;
+       -moz-background-clip: text;
+       -moz-text-fill-color: transparent;
+       -ms-background-clip: text;
+       -ms-text-fill-color: transparent;
+       background-clip: text;
+       text-fill-color: transparent;
+       background-image: linear-gradient(45deg,
+               #000f45,
+               #050d29,
+               #121624,
+               #15161b,
+               #000000);
+       animation: .8s shake infinite alternate; */
    }
+
 
    .et-header__link {
        margin-left: 1em;
@@ -55,13 +73,12 @@
        padding: 0 2em;
    }
 
-   .et-hero-tabs-portfolio,
    .et-slide-portfolio {
        display: flex;
        flex-direction: column;
        justify-content: center;
        align-items: center;
-       height: 200vh;
+       height: fit-content;
        position: relative;
        background: #eee;
        text-align: center;
@@ -148,6 +165,8 @@
            font-size: 1rem;
        }
    }
+
+   /* NAV BAR */
 
    /* #hero-bg {
      background: rgba(0, 128, 0, 0.3) // Green background with 30% opacity 
