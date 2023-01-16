@@ -54,6 +54,12 @@
        animation: .8s shake infinite alternate; */
    }
 
+   .et-footer__logo {
+       color: #000;
+       font-family: "Lucida Fax";
+       font-size: 24px;
+   }
+
 
    .et-header__link {
        margin-left: 1em;
@@ -78,7 +84,6 @@
    }
 
    .et-slide-resume {
-
        height: 100vh;
    }
 
