@@ -60,20 +60,7 @@
        color: #000;
    }
 
-   .et-hero-tabs,
    .et-slide {
-       display: flex;
-       flex-direction: column;
-       justify-content: center;
-       align-items: center;
-       height: 100vh;
-       position: relative;
-       background: #eee;
-       text-align: center;
-       padding: 0 2em;
-   }
-
-   .et-slide-portfolio {
        display: flex;
        flex-direction: column;
        justify-content: center;
@@ -83,6 +70,36 @@
        background: #eee;
        text-align: center;
        padding: 0 2em;
+   }
+
+   .et-slide-hero {
+       height: 100vh;
+   }
+
+   .et-slide-about {
+       height: 100vh;
+   }
+
+   .et-slide-resume {
+       height: 100vh;
+   }
+
+   .et-slide-portfolio {
+
+       height: fit-content;
+
+   }
+
+   .et-slide-references {
+
+       height: 100vh;
+
+   }
+
+   .et-slide-contact {
+
+       height: 100vh;
+
    }
 
    .et-hero-tabs h1,
