@@ -298,11 +298,11 @@ function WordShuffler(holder,opt){
 
   console.log(this.currentWord);
   update(time);
+
+  
 }
 
-
-
-
+  
 var head_name = document.getElementById('head_name');
 
 var headText = new WordShuffler(head_name,{
@@ -312,4 +312,18 @@ var headText = new WordShuffler(head_name,{
   mixSpecialCharacters : true
 });
 
+function wait(sec) {
+	const date = Date.now();
+	let currentDate = null;
+	do {
+	  currentDate = Date.now();
+	} while (currentDate - date < sec*1000);
+  }
+  
+  console.log('waiting');
+  
+  //wait(5);
+  
+  console.log('i am done')
 // Name in Header
+

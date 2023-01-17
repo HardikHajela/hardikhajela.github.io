@@ -80,7 +80,7 @@
    }
 
    .et-slide-about {
-       height: 100vh;
+       height: fit-content;
    }
 
    .et-slide-resume {
@@ -106,11 +106,18 @@
        letter-spacing: 1rem;
    }
 
+   .et-hero-tabs h2,
+   .et-slide h2 {
+       font-size: 1.3rem;
+       margin: 0;
+       letter-spacing: 0.7rem;
+   }
+
    .et-hero-tabs h3,
    .et-slide h3 {
        font-size: 1rem;
        letter-spacing: 0.3rem;
-       opacity: 0.6;
+       opacity: 0.7;
    }
 
    .et-hero-tabs-container {
@@ -170,6 +177,11 @@
            font-size: 3rem;
        }
 
+       .et-hero-tabs h2,
+       .et-slide h2 {
+           font-size: 2rem;
+       }
+
        .et-hero-tabs h3,
        .et-slide h3 {
            font-size: 1rem;
@@ -181,6 +193,154 @@
    }
 
    /* NAV BAR */
+
+   /* Progress Bar in About */
+
+   .containerbar {
+       margin: auto;
+       width: 300px;
+       text-align: center;
+       background: #eee;
+   }
+
+   .progress2 {
+       padding: 6px;
+       border-radius: 30px;
+       background: white;
+       box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+   }
+
+   .progress-bar2 {
+       height: 18px;
+       border-radius: 30px;
+       background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+       transition: 0.4s linear;
+       transition-property: width, background-color;
+   }
+
+   .progress-moved .progress-bar2 {
+       width: 85%;
+       background-color: #0a1432;
+       animation: progressAnimation2 3s;
+   }
+
+   @keyframes progressAnimation2 {
+       0% {
+           width: 5%;
+           background-color: #46a7e7;
+       }
+
+       100% {
+           width: 85%;
+           background-color: #0a1432;
+       }
+   }
+
+   .progress-bar3 {
+       height: 18px;
+       border-radius: 30px;
+       background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+       transition: 0.4s linear;
+       transition-property: width, background-color;
+   }
+
+   .progress-moved .progress-bar3 {
+       width: 95%;
+       background-color: #0a1432;
+       animation: progressAnimation3 3s;
+   }
+
+   @keyframes progressAnimation3 {
+       0% {
+           width: 5%;
+           background-color: #46a7e7;
+       }
+
+       100% {
+           width: 95%;
+           background-color: #0a1432;
+       }
+   }
+
+   .progress-bar4 {
+       height: 18px;
+       border-radius: 30px;
+       background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+       transition: 0.4s linear;
+       transition-property: width, background-color;
+   }
+
+   .progress-moved .progress-bar4 {
+       width: 90%;
+       background-color: #0a1432;
+       animation: progressAnimation4 3s;
+   }
+
+   @keyframes progressAnimation4 {
+       0% {
+           width: 5%;
+           background-color: #46a7e7;
+       }
+
+       100% {
+           width: 90%;
+           background-color: #0a1432;
+       }
+   }
+
+   .progress-bar5 {
+       height: 18px;
+       border-radius: 30px;
+       background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+       transition: 0.4s linear;
+       transition-property: width, background-color;
+   }
+
+   .progress-moved .progress-bar5 {
+       width: 80%;
+       background-color: #0a1432;
+       animation: progressAnimation5 3s;
+   }
+
+   @keyframes progressAnimation5 {
+       0% {
+           width: 5%;
+           background-color: #46a7e7;
+       }
+
+       100% {
+           width: 80%;
+           background-color: #0a1432;
+       }
+   }
+
+   .progress-bar6 {
+       height: 18px;
+       border-radius: 30px;
+       background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+       transition: 0.4s linear;
+       transition-property: width, background-color;
+   }
+
+   .progress-moved .progress-bar6 {
+       width: 75%;
+       background-color: #0a1432;
+       animation: progressAnimation6 3s;
+   }
+
+   @keyframes progressAnimation6 {
+       0% {
+           width: 5%;
+           background-color: #46a7e7;
+       }
+
+       100% {
+           width: 75%;
+           background-color: #0a1432;
+       }
+   }
+
+   /* Progress Bar in About */
 
    /* #hero-bg {
      background: rgba(0, 128, 0, 0.3) // Green background with 30% opacity 
@@ -208,4 +368,6 @@
 
    #about-p {
        text-align: left;
+
+       transition: all 0.3s ease-in-out;
    }
