@@ -220,7 +220,7 @@
 
    .progress-moved .progress-bar2 {
        width: 85%;
-       background-color: #0a1432;
+       background-color: #112351;
        animation: progressAnimation2 3s;
    }
 
@@ -232,7 +232,7 @@
 
        100% {
            width: 85%;
-           background-color: #0a1432;
+           background-color: #112351;
        }
    }
 
@@ -246,7 +246,7 @@
 
    .progress-moved .progress-bar3 {
        width: 95%;
-       background-color: #0a1432;
+       background-color: #112351;
        animation: progressAnimation3 3s;
    }
 
@@ -258,7 +258,7 @@
 
        100% {
            width: 95%;
-           background-color: #0a1432;
+           background-color: #112351;
        }
    }
 
@@ -272,7 +272,7 @@
 
    .progress-moved .progress-bar4 {
        width: 90%;
-       background-color: #0a1432;
+       background-color: #112351;
        animation: progressAnimation4 3s;
    }
 
@@ -284,7 +284,7 @@
 
        100% {
            width: 90%;
-           background-color: #0a1432;
+           background-color: #112351;
        }
    }
 
@@ -298,7 +298,7 @@
 
    .progress-moved .progress-bar5 {
        width: 80%;
-       background-color: #0a1432;
+       background-color: #112351;
        animation: progressAnimation5 3s;
    }
 
@@ -310,7 +310,7 @@
 
        100% {
            width: 80%;
-           background-color: #0a1432;
+           background-color: #112351;
        }
    }
 
@@ -324,7 +324,7 @@
 
    .progress-moved .progress-bar6 {
        width: 75%;
-       background-color: #0a1432;
+       background-color: #112351;
        animation: progressAnimation6 3s;
    }
 
@@ -336,7 +336,7 @@
 
        100% {
            width: 75%;
-           background-color: #0a1432;
+           background-color: #112351;
        }
    }
 
