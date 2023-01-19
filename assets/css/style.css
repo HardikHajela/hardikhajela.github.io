@@ -441,3 +441,7 @@
 
        transition: all 0.3s ease-in-out;
    }
+
+   hr.section {
+       border: 1px dashed rgb(0, 0, 0);
+   }
