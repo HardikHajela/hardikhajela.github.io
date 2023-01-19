@@ -357,6 +357,7 @@
        margin-top: -2px;
        border-left: 2px solid #163279;
        position: relative;
+       text-align: left;
    }
 
    .resume .resume-item h4 {
@@ -380,13 +381,17 @@
        text-align: left;
    }
 
+   .cv-institution {
+       text-align: left;
+   }
+
    .resume .resume-item ul {
        padding-left: 20px;
+       text-align: left;
    }
 
    .resume .resume-item ul li {
        padding-bottom: 10px;
-       text-align: left;
    }
 
    .resume .resume-item:last-child {

@@ -1,6 +1,4 @@
-console.log('waiting');
-//wait(5);
-console.log('5 Sec!')
+
 
 // NAV
 class StickyNavigation {
@@ -305,6 +303,7 @@ function WordShuffler(holder, opt) {
 
 
 }
+// Name in Header
 
 
 var head_name = document.getElementById('head_name');
@@ -316,6 +315,31 @@ var headText = new WordShuffler(head_name, {
 	mixSpecialCharacters: true
 });
 
+console.log('waiting');
+//wait(5);
+console.log('5 Sec!');
+
+
+
+setTimeout(function () {
+
+	document.getElementById("typed").innerHTML = "";
+	var options = {
+		strings: [
+			//"Hardik",
+			"I'm a Software <br> Developer",
+			"I'm a Software <br> Designer",
+			"I'm a Technical <br> Project Manager",
+		],
+		typeSpeed: 45,
+		backSpeed: 40,
+		loop: true,
+		smartBackspace: true
+	}
+
+	var typed = new Typed("#typed", options);
+}, 3000); // wait for 3 seconds
+
 function wait(sec) {
 	const date = Date.now();
 	let currentDate = null;
@@ -324,5 +348,4 @@ function wait(sec) {
 	} while (currentDate - date < sec * 1000);
 }
 
-// Name in Header
 
