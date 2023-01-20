@@ -347,5 +347,3 @@ function wait(sec) {
 		currentDate = Date.now();
 	} while (currentDate - date < sec * 1000);
 }
-
-
