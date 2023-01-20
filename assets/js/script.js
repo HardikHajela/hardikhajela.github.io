@@ -1,5 +1,4 @@
 
-
 // NAV
 class StickyNavigation {
 
