@@ -319,8 +319,6 @@ console.log('waiting');
 //wait(5);
 console.log('5 Sec!');
 
-
-
 setTimeout(function () {
 
 	document.getElementById("typed").innerHTML = "";
@@ -338,7 +336,7 @@ setTimeout(function () {
 	}
 
 	var typed = new Typed("#typed", options);
-}, 3000); // wait for 3 seconds
+}, 3060); // wait for 3 seconds
 
 function wait(sec) {
 	const date = Date.now();
