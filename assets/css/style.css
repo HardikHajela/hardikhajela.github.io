@@ -831,6 +831,30 @@
        background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/onepgscr-7.jpg");
    }
 
+   .el:nth-child(6) {
+    transform: translate3d(420.8333333333%, 0, 0);
+    transform-origin: 470.8333333333% 50%;
+}
+
+.cont.s--el-active .el:nth-child(6):not(.s--active) {
+    transform: scale(0.5) translate3d(420.8333333333%, 0, 0);
+    opacity: 0;
+    transition: transform 0.95s, opacity 0.95s;
+}
+
+.el:nth-child(6) .el__inner {
+    transition-delay: 0.4s;
+}
+
+.el:nth-child(6) .el__bg {
+    transform: translate3d(-76.8%, 0, 0);
+}
+
+.el:nth-child(6) .el__bg:before {
+    transition-delay: 0.4s;
+    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/onepgscr-7.jpg");
+}
+
    .el:hover .el__bg:after {
        opacity: 0;
    }
