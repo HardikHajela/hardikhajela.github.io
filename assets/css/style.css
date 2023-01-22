@@ -8,6 +8,7 @@
 
    /* NAV BAR */
    .et-header {
+       background: rgba(255, 255, 255, 0.348);
        display: flex;
        flex-direction: row;
        justify-content: space-between;
@@ -44,12 +45,11 @@
        -ms-background-clip: text;
        -ms-text-fill-color: transparent;
        background-clip: text;
-       text-fill-color: transparent;
        background-image: linear-gradient(45deg,
-               #000f45,
-               #050d29,
-               #121624,
-               #15161b,
+               #888888,
+               #474747,
+               #525252,
+               #191919,
                #000000);
        animation: .8s shake infinite alternate; */
    }
