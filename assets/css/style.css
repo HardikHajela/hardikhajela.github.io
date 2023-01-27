@@ -542,13 +542,18 @@
    .contactcontent {
        font-family: "Lucida Fax";
        font-size: 23px;
-       text-decoration: none;   
+       text-decoration: none;
    }
 
-   div.concol{
-    height: 400px;
-    width: 300px;
-    border-radius: 10%;
-    background-color: #000;
+   .divalign {
+       text-align: left;
    }
+
+   div.concol {
+       height: 400px;
+       width: 300px;
+       border-radius: 10%;
+       background-color: #000;
+   }
+
    /* CONTACT */
