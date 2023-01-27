@@ -332,6 +332,13 @@ $closeBtnsArr.forEach(function ($btn) {
 
 //Certificates
 
+// Contact
+
+$(".social").hover(function () {
+	$(this).toggleClass("is-active");
+});
+
+// Contact
 
 var head_name = document.getElementById('head_name');
 

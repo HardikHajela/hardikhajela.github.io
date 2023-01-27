@@ -92,11 +92,11 @@
    }
 
    .et-slide-references {
-       height: 100vh;
+       height: fit-content;
    }
 
    .et-slide-contact {
-       height: 100vh;
+       height: fit-content;
    }
 
    .et-hero-tabs h1,
@@ -437,7 +437,6 @@
 
    #about-p {
        text-align: left;
-
        transition: all 0.3s ease-in-out;
    }
 
@@ -493,5 +492,63 @@
    /* PORTFOLIO SECTION */
 
    /* CERTIFICATES  */
-  
+
    /* CERTIFICATES  */
+
+   /* REFERENCES */
+
+
+   a.refemail:link {
+       color: #2F759E;
+       background-color: transparent;
+       text-decoration: none;
+   }
+
+   a.refemail:visited {
+       color: #0f405c;
+       background-color: transparent;
+       text-decoration: none;
+   }
+
+   a.refemail:hover {
+       color: #34aef5;
+       background-color: transparent;
+       text-decoration: underline;
+   }
+
+   a.refemail:active {
+       color: #0f405c;
+       background-color: transparent;
+       text-decoration: underline;
+   }
+
+   .refname {
+       line-height: 20px;
+       color: #050d18;
+       margin-bottom: 10px;
+       text-align: left;
+   }
+
+   /* REFERENCES */
+
+   /* CONTACT */
+   .contactHead {
+       color: #000;
+       font-family: "Lucida Fax";
+       font-size: 23px;
+       font-weight: 600;
+   }
+
+   .contactcontent {
+       font-family: "Lucida Fax";
+       font-size: 23px;
+       text-decoration: none;   
+   }
+
+   div.concol{
+    height: 400px;
+    width: 300px;
+    border-radius: 10%;
+    background-color: #000;
+   }
+   /* CONTACT */
