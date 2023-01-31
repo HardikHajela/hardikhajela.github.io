@@ -196,8 +196,19 @@
 
    /* Progress Bar in About */
 
+   .p-about-skills {
+       text-align: left;
+   }
+
+   @media (max-width: 420px) {
+       .p-about-skills {
+           text-align: left;
+           font-size: 14px;
+       }
+   }
+
    .containerbar {
-       margin: auto;
+       /* margin: auto; */
        width: 300px;
        text-align: center;
        background: #eee;
@@ -419,20 +430,45 @@
        background-image: url("../images/bg02.png");
        background-repeat: no-repeat;
        background-size: 100%;
-       /* TO ADD SUPPORT FOR MOBILE DEVICES */
        background-position: bottom;
+   }
+
+   @media (max-width: 992px) {
+       #tab-hero {
+           background-image: url("../images/bg03.png");
+           background-repeat: no-repeat;
+           background-position: top ;
+       }
    }
 
    #about-img {
        border-radius: 9px;
        box-shadow: -10px 10px 5px #c0bcbc;
+       height: 510px;
+   }
+
+   @media (max-width: 992px) {
+       #about-img {
+           border-radius: 9px;
+           box-shadow: -10px 10px 5px #c0bcbc;
+           height: 360px;
+       }
    }
 
    .linel {
        border-left: 1px solid #c0bcbc;
-       height: 520px;
+       height: 549px;
        position: absolute;
        /* TO ADD SUPPORT FOR MOBILE DEVICES, GAYAB */
+   }
+
+   @media (max-width: 1200px) {
+       .linel {
+           border-left: 1px solid #c0bcbc;
+           height: 0px;
+           position: absolute;
+           /* TO ADD SUPPORT FOR MOBILE DEVICES, GAYAB */
+       }
    }
 
    #about-p {
