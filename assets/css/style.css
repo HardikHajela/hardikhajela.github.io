@@ -824,7 +824,7 @@
    }
 
    .el:nth-child(2) .el__bg {
-       transform: translate3d(-17.5%, 0, 0);
+       transform: translate3d(-38.9%, 0, 0);
        /* transform: translate3d(-19.2%, 0, 0); */
        /* ================================================================================================================ */
        /* FOR HAVING A DIFFERENT PART OF CERT HIGHLIGHT IN TTHUMBNAIL */
@@ -832,7 +832,7 @@
 
    .el:nth-child(2) .el__bg:before {
        transition-delay: 0.1s;
-       background-image: url("https://media.licdn.com/dms/image/C561FAQHZ2Gf9Ddrilw/feedshare-document-cover-images_1280/0/1670648358801?e=1675479600&v=beta&t=sfm-i5DUlDaNbP5NsVKcZBFTwQB8ZXnZt2vNJ6ySDwQ");
+       background-image: url("https://media.licdn.com/dms/image/C561FAQFu6uZuaNaHxQ/feedshare-document-cover-images_1280/0/1673237185201?e=1675476000&v=beta&t=aDwH-BsnRsLfooL4o9OUK9bRwuPQqtWicY3x5hH-FpY");
        background-size: 625px;
        background-repeat: no-repeat;
        background-color: #fff;
@@ -860,7 +860,7 @@
 
    .el:nth-child(3) .el__bg:before {
        transition-delay: 0.2s;
-       background-image: url("https://media.licdn.com/dms/image/C561FAQEqohKeLr3H_w/feedshare-document-cover-images_1280/0/1673622948789?e=1675479600&v=beta&t=NyDzMBDYS5_kD91RXStZoaPoBT6QVV-5qJOhe15muOw");
+       background-image: url("https://media.licdn.com/dms/image/C561FAQHZ2Gf9Ddrilw/feedshare-document-cover-images_1280/0/1670648358801?e=1675479600&v=beta&t=sfm-i5DUlDaNbP5NsVKcZBFTwQB8ZXnZt2vNJ6ySDwQ");
        background-size: 625px;
        background-repeat: no-repeat;
        background-color: #fff;
@@ -883,12 +883,12 @@
 
    .el:nth-child(4) .el__bg {
        /* transform: translate3d(-57.6%, 0, 0); */
-       transform: translate3d(-67.5%, 0, 0);
+       transform: translate3d(-38.9%, 0, 0);
    }
 
    .el:nth-child(4) .el__bg:before {
        transition-delay: 0.3s;
-       background-image: url("https://media.licdn.com/dms/image/C561FAQFu6uZuaNaHxQ/feedshare-document-cover-images_1280/0/1673237185201?e=1675476000&v=beta&t=aDwH-BsnRsLfooL4o9OUK9bRwuPQqtWicY3x5hH-FpY");
+       background-image: url("https://media.licdn.com/dms/image/C561FAQEqohKeLr3H_w/feedshare-document-cover-images_1280/0/1673622948789?e=1675479600&v=beta&t=NyDzMBDYS5_kD91RXStZoaPoBT6QVV-5qJOhe15muOw");
        background-size: 625px;
        background-repeat: no-repeat;
        background-color: #fff;
@@ -912,7 +912,7 @@
    .el:nth-child(5) .el__bg {
        /* transform: translate3d(-76.8%, 0, 0); */
        /* transform: translate3d(-17.5%, 0, 0); */
-       transform: translate3d(-21.5%, 0, 0);
+       transform: translate3d(-37.5%, 0, 0);
    }
 
    .el:nth-child(5) .el__bg:before {
