@@ -984,7 +984,6 @@
 
    /* REFERENCES */
 
-
    a.refemail:link {
        color: #2F759E;
        background-color: transparent;
@@ -1020,7 +1019,7 @@
 
    /* CONTACT */
    .contactHead {
-       color: #000;
+       color: #0f405c ;
        font-family: "Lucida Fax";
        font-size: 23px;
        font-weight: 600;
