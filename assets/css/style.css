@@ -3,7 +3,7 @@
    }
 
    a {
-        text-decoration: none;
+       text-decoration: none;
    }
 
    /* NAV BAR */
@@ -24,7 +24,7 @@
    }
 
    .et-header--scrolled {
-       background: #fff;
+       /* background: #fff; */
        box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
    }
 
@@ -36,7 +36,7 @@
    .et-header__logo {
        color: #000;
        font-family: "Lucida Fax";
-       font-size: 24px;
+       font-size: 27px;
        text-align: center;
 
        /* -webkit-background-clip: text;
@@ -60,7 +60,6 @@
        font-family: "Lucida Fax";
        font-size: 24px;
    }
-
 
    .et-header__link {
        margin-left: 1em;
@@ -136,7 +135,7 @@
 
    .et-hero-tabs-container--top-first {
        position: fixed;
-       top: 75px;
+       /* top: 75px; */
        transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
    }
 
@@ -438,9 +437,10 @@
        #tab-hero {
            background-image: url("../images/bg03.png");
            background-repeat: no-repeat;
-           background-position: top ;
+           background-position: top;
        }
    }
+
 
    #about-img {
        border-radius: 9px;
@@ -1019,7 +1019,7 @@
 
    /* CONTACT */
    .contactHead {
-       color: #0f405c ;
+       color: #0f405c;
        font-family: "Lucida Fax";
        font-size: 23px;
        font-weight: 600;
