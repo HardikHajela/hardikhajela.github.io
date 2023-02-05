@@ -64,9 +64,9 @@
    }
 
    .et-header--hidden {
-    transform: translateY(-75px);
-    visibility: hidden;
-  }
+       transform: translateY(-75px);
+       visibility: hidden;
+   }
 
    .et-header__link {
        margin-left: 1em;
@@ -1052,6 +1052,10 @@
 
    /* CONTACT */
 
+   /* PROGRESS BAR */
+
+
+   /* PROGRESS BAR */
 
    /* PROJECTS */
    /* 
