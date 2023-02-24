@@ -35,8 +35,6 @@
 </head>
 
 <body>
-	<!-- Progress Bar -->
-
 
 	<header class="et-header">
 		<!-- <div class="et-header__left"> -->
@@ -75,25 +73,25 @@
 		<h3>-And this is My Portfolio-</h3>
 		<!-- <div id = "hero-bg">Test</div> -->
 		<div class="et-hero-tabs-container">
-			<a class="et-hero-tab" href="#about-ref">About</a>
-			<a class="et-hero-tab" href="#ref-res">Résumé</a>
-			<a class="et-hero-tab" href="#ref-portfolio">Projects</a>
+			<a class="et-hero-tab" href="#tab-about">About</a>
+			<a class="et-hero-tab" href="#tab-CV">Résumé</a>
+			<a class="et-hero-tab" href="#tab-Portfolio">Projects</a>
 			<a class="et-hero-tab" href="#tab-References">References</a>
 			<span class="et-hero-tab-slider"></span>
 		</div>
 	</section>
+
 	<main class="et-main">
 		<section class="et-slide et-slide-about" id="tab-about">
 			<div class="container">
 				<div class="row" id="about-ref">&nbsp;</div>
 				<div class="row">&nbsp;</div>
 				<div class="row">
-					<div class="col-lg-5">
-						<br>
+					<div class="col-lg-5 about-img-flex">
 						<img src="assets/images/myprofile13.jpg" id="about-img">
 					</div>
-					<div class="col-1">
-						<div class="linel"></div>
+					<div class="col-1 d-flex" style="height: inherit;">
+						<div class="vr"></div>
 					</div>
 					<div class="col-lg-6" id="about-heading">
 						<br>
@@ -126,16 +124,19 @@
 					</div>
 				</div>
 				<div class="row">&nbsp;</div>
+			</div>
+
+			<div class="container">
 				<div class="row">
 					<div class="col">
 						<h2>Skills</h2>
 					</div>
 				</div>
 				<div class="row">&nbsp;</div>
-				<div class="row">
+				<!-- <div class="row">
 					<div class="col">
 						Technologies:
-						<!-- <img src="assets/images/skills/Tech/c.png" class="skilljava">, -->
+						<img src="assets/images/skills/Tech/c.png" class="skilljava">,
 						<img src="assets/images/skills/Tech/python.png" class="skilljava">,
 						<img src="assets/images/skills/Tech/HTML.png" class="skilljava">,
 						<img src="assets/images/skills/Tech/CSS.png" class="skilljava">,
@@ -201,7 +202,7 @@
 						<img src="assets/images/skills/Cloud/Cognito.png" class="skilljava">,
 						<img src="assets/images/skills/Cloud/EBS.png" class="skilljava">
 					</div>
-				</div>
+				</div> -->
 			</div>
 			<!--	
 				• Technologies: Java(JDBC), C++, HTML, CSS, JavaScript(ES6+), PHP(REST), XML, JSON, C, C#, Python
@@ -213,104 +214,53 @@
 				• Cloud Technologies: AWS (EC2, AMI, RDS with MySQL/MariaDB, S3, Lambda, Cognito & EBS), VMware
 				• SDLC Frameworks: SCRUM, eXtreme Programming (XP), Kanban 
 			-->
-			<table class="table">
+			<!-- <table class="table">
 				<tbody>
-				  <tr>
-					<th scope="row">1</th>
-					<td><img src="assets/images/skills/Tech/python.png" class="skilljava">,</td>
-					<td>
-						<img src="assets/images/skills/Tech/HTML.png" class="skilljava">,</td>
-					<td>
-						<img src="assets/images/skills/Tech/CSS.png" class="skilljava">,</td>
-					<td>
-						<img src="assets/images/skills/Tech/js.png" class="skilljava">,</td>
-					<td>
-						<img src="assets/images/skills/Tech/cpp.png" class="skilljava">,</td>
-					<td>
-						<img src="assets/images/skills/Tech/java.png" class="skilljava">,</td>
-					<td>
-						<img src="assets/images/skills/Tech/CSharp.png" class="skilljava">,</td>
-					<td>
-						<img src="assets/images/skills/Tech/REST.png" class="skilljava">,</td>
-					<td>
-						<img src="assets/images/skills/Tech/php.png" class="skilljava">,</td>
-					<td>
-						<img src="assets/images/skills/Tech/XML.png" class="skilljava"></td>	
-				  </tr>
-				  <tr>
-					<th scope="row">2</th>
-					<td>Jacob</td>
-					<td>Thornton</td>
-					<td>@fat</td>
-				  </tr>
-				  <tr>
-					<th scope="row">3</th>
-					<td colspan="2">Larry the Bird</td>
-					<td>@twitter</td>
-				  </tr>
+					<tr>
+						<th scope="row">1</th>
+						<td><img src="assets/images/skills/Tech/python.png" class="skilljava">,</td>
+						<td>
+							<img src="assets/images/skills/Tech/HTML.png" class="skilljava">,
+						</td>
+						<td>
+							<img src="assets/images/skills/Tech/CSS.png" class="skilljava">,
+						</td>
+						<td>
+							<img src="assets/images/skills/Tech/js.png" class="skilljava">,
+						</td>
+						<td>
+							<img src="assets/images/skills/Tech/cpp.png" class="skilljava">,
+						</td>
+						<td>
+							<img src="assets/images/skills/Tech/java.png" class="skilljava">,
+						</td>
+						<td>
+							<img src="assets/images/skills/Tech/CSharp.png" class="skilljava">,
+						</td>
+						<td>
+							<img src="assets/images/skills/Tech/REST.png" class="skilljava">,
+						</td>
+						<td>
+							<img src="assets/images/skills/Tech/php.png" class="skilljava">,
+						</td>
+						<td>
+							<img src="assets/images/skills/Tech/XML.png" class="skilljava">
+						</td>
+					</tr>
+					<tr>
+						<th scope="row">2</th>
+						<td>Jacob</td>
+						<td>Thornton</td>
+						<td>@fat</td>
+					</tr>
+					<tr>
+						<th scope="row">3</th>
+						<td colspan="2">Larry the Bird</td>
+						<td>@twitter</td>
+					</tr>
 				</tbody>
-			  </table>
-				<div class="row">
-					<div class="col">
-						Technologies:
-						<!-- <img src="assets/images/skills/Tech/c.png" class="skilljava">, -->
-						
-					</div>
-				</div>
-				<div class="row">&nbsp;</div>
-				<div class="row">
-					<div class="col">
-						Frameworks:
-						<img src="assets/images/skills/frameworks platforms/gradlephant.png" class="skilljava">,
-						<img src="assets/images/skills/frameworks platforms/JavaFX_Logo.png" class="skilljava">,
-						<img src="assets/images/skills/frameworks platforms/andriod.png" class="skilljava">,
-						<img src="assets/images/skills/frameworks platforms/node.png" class="skilljava">,
-						<img src="assets/images/skills/frameworks platforms/net.png" class="skilljava">,
-						<img src="assets/images/skills/frameworks platforms/Bootstrap.png" class="skilljava">,
-						<img src="assets/images/skills/frameworks platforms/maven.png" class="skilljava">
-					</div>
-				</div>
-				<div class="row">&nbsp;</div>
-				<div class="row">
-					<div class="col">
-						Databases:
-						<img src="assets/images/skills/DB/SQLite.png" class="skilljava">,
-						<img src="assets/images/skills/DB/maria.png" class="skilljava">,
-						<img src="assets/images/skills/DB/mssql.png" class="skilljava">,
-						<img src="assets/images/skills/DB/mySql.png" class="skilljava">,
-						<img src="assets/images/skills/DB/mongoDB.png" class="skilljava">,
-						<img src="assets/images/skills/DB/plsql.png" class="skilljava">,
-						<img src="assets/images/skills/DB/Postgres.png" class="skilljava">
-					</div>
-				</div>
-				<div class="row">&nbsp;</div>
-				<div class="row">
-					<div class="col">
-						Collaboration, Visualization &amp; Analytics:
-						<img src="assets/images/skills/Collab/confluence.png" class="skilljava">,
-						<img src="assets/images/skills/Collab/Visio.png" class="skilljava">,
-						<img src="assets/images/skills/Collab/PowerBI.png" class="skilljava">,
-						<img src="assets/images/skills/Collab/git.png" class="skilljava">,
-						<img src="assets/images/skills/Collab/jira.png" class="skilljava">,
-						<img src="assets/images/skills/Collab/Sharepoint.png" class="skilljava">,
-						<img src="assets/images/skills/Collab/VBA.png" class="skilljava">
-					</div>
-				</div>
-				<div class="row">&nbsp;</div>
-				<div class="row">
-					<div class="col">
-						Cloud
-						<img src="assets/images/skills/Cloud/VMWare.png" class="skilljava">,
-						<img src="assets/images/skills/Cloud/AWS.png" class="skilljava">,
-						<img src="assets/images/skills/Cloud/EC2.png" class="skilljava">,
-						<img src="assets/images/skills/Cloud/AMI.png" class="skilljava">,
-						<img src="assets/images/skills/Cloud/RDS.png" class="skilljava">,
-						<img src="assets/images/skills/Cloud/S3.png" class="skilljava">,
-						<img src="assets/images/skills/Cloud/Lambda.png" class="skilljava">,
-						<img src="assets/images/skills/Cloud/Cognito.png" class="skilljava">,
-						<img src="assets/images/skills/Cloud/EBS.png" class="skilljava">
-					</div>
-				</div>
+			</table> -->
+			
 			<!-- <div class="row p-about-skills">
 					<div class="col-lg-4">
 						<p>&ensp;Java, C++, C (4-6 years)</p>
@@ -375,6 +325,7 @@
 			</div>
 			<!-- <h3>something</h3> -->
 		</section>
+
 		<section class="et-slide et-slide-resume" id="tab-CV">
 			<div class="container-fluid">
 				<hr class="section">
@@ -643,6 +594,7 @@
 				<div class="row">&nbsp;</div>
 			</div>
 		</section>
+
 		<section class="et-slide et-slide-portfolio" id="tab-Portfolio">
 			<div class="container-fluid">
 				<hr class="section">
@@ -1132,14 +1084,18 @@
 						<!-- .  --><br>
 						<iframe
 							src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2950.620245514744!2d-83.06694757331326!3d42.30796787983658!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x883b2d73e660a5b7%3A0x243ac0eaec6f90ed!2sFanchette%20St%20%26%20Randolph%20Ave%2C%20Windsor%2C%20ON%20N9B%202T6!5e0!3m2!1sen!2sca!4v1675193959998!5m2!1sen!2sca"
-							height="80%" width="90%" style="border: 1px solid rgb(0, 0, 0);" allowfullscreen=""
+							height="80%" width="75%" style="border: 1px solid rgb(0, 0, 0);" allowfullscreen=""
 							loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> <!-- width="350" -->
 					</div>
 					<div class="col-lg-6">
 						<div class="row">&nbsp;</div>
 						<div class="row">
-							<div class="col-sm-3 divalign">
-								<span class="contactHead">Phone:</span>
+							<div class="col-2 divalign">
+								<span class="contactcontent">
+									<a href="tel:+16479966096" class="refemail">
+										<i class="bi bi-telephone-plus-fill"></i>
+									</a>
+								</span>
 							</div>
 							<div class="col divalign">
 								<span class="contactcontent">
@@ -1148,18 +1104,15 @@
 									</a>
 								</span>
 							</div>
-							<div class="col-1 divalign">
-								<span class="contactcontent">
-									<a href="tel:+16479966096" class="refemail">
-										<i class="bi bi-telephone-plus-fill"></i>
-									</a>
-								</span>
-							</div>
 						</div>
 
 						<div class="row">
-							<div class="col-sm-3 divalign">
-								<span class="contactHead">Email:</span>
+							<div class="col-2 divalign">
+								<span class="contactcontent">
+									<a href="mailto:hardik.hajela@icloud.com" class="refemail">
+										<i class="bi bi-envelope-check-fill"></i>
+									</a>
+								</span>
 							</div>
 							<div class="col divalign">
 								<span class="contactcontent">
@@ -1168,18 +1121,15 @@
 									</a>
 								</span>
 							</div>
-							<div class="col-1 divalign">
-								<span class="contactcontent">
-									<a href="mailto:hardik.hajela@icloud.com" class="refemail">
-										<i class="bi bi-envelope-check-fill"></i>
-									</a>
-								</span>
-							</div>
 						</div>
 
 						<div class="row">
-							<div class="col-sm-3 divalign">
-								<span class="contactHead">2nd Email:</span>
+							<div class="col-2 divalign">
+								<span class="contactcontent">
+									<a href="mailto:hajela@uwindsor.ca" class="refemail">
+										<i class="bi bi-envelope-fill"></i>
+									</a>
+								</span>
 							</div>
 							<div class="col divalign">
 								<span class="contactcontent">
@@ -1188,18 +1138,15 @@
 									</a>
 								</span>
 							</div>
-							<div class="col-1 divalign">
-								<span class="contactcontent">
-									<a href="mailto:hajela@uwindsor.ca" class="refemail">
-										<i class="bi bi-envelope-fill"></i>
-									</a>
-								</span>
-							</div>
 						</div>
 
 						<div class="row">
-							<div class="col-sm-3 divalign">
-								<span class="contactHead">Address:</span>
+							<div class="col-2 divalign">
+								<span class="contactcontent">
+									<a href="https://goo.gl/maps/wvB4SGCaGsReBWKV9" class="refemail">
+										<i class="bi bi-geo-alt-fill"></i>
+									</a>
+								</span>
 							</div>
 							<div class="col divalign">
 								<span class="contactcontent">
@@ -1208,18 +1155,15 @@
 									</a>
 								</span>
 							</div>
-							<div class="col-1 divalign">
-								<span class="contactcontent">
-									<a href="https://goo.gl/maps/wvB4SGCaGsReBWKV9" class="refemail">
-										<i class="bi bi-geo-alt-fill"></i>
-									</a>
-								</span>
-							</div>
 						</div>
 
 						<div class="row">
-							<div class="col-sm-3 divalign">
-								<span class="contactHead">LinkedIn:</span>
+							<div class="col-2 divalign">
+								<span class="contactcontent">
+									<a href="https://www.linkedin.com/in/hardik-hajela/" class="refemail">
+										<i class="bi bi-linkedin"></i>
+									</a>
+								</span>
 							</div>
 							<div class="col divalign">
 								<span class="contactcontent">
@@ -1228,30 +1172,20 @@
 									</a>
 								</span>
 							</div>
-							<div class="col-1 divalign">
-								<span class="contactcontent">
-									<a href="https://www.linkedin.com/in/hardik-hajela/" class="refemail">
-										<i class="bi bi-linkedin"></i>
-									</a>
-								</span>
-							</div>
 						</div>
 
 						<div class="row">
-							<div class="col-sm-3 divalign">
-								<span class="contactHead">GitHub:</span>
+							<div class="col-2 divalign">
+								<span class="contactcontent">
+									<a href="https://github.com/HardikHajela" class="refemail">
+										<i class="bi bi-github"></i>
+									</a>
+								</span>
 							</div>
 							<div class="col divalign">
 								<span class="contactcontent">
 									<a href="https://github.com/HardikHajela" class="refemail">
 										github.com/HardikHajela
-									</a>
-								</span>
-							</div>
-							<div class="col-1 divalign">
-								<span class="contactcontent">
-									<a href="https://github.com/HardikHajela" class="refemail">
-										<i class="bi bi-github"></i>
 									</a>
 								</span>
 							</div>
