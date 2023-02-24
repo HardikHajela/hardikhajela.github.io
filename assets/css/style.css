@@ -1085,6 +1085,38 @@ div.concol {
 
 /* PROGRESS BAR */
 
+.progress {
+  height: 9px;
+  width: 0%;
+  background-color: #1aff00;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  animation: progress 1s linear;
+}
+
+@keyframes progress {
+  0% {
+    background-color: #ff0000;
+    width: 0%;
+  }
+
+  100% {
+    background-color: rgb(0, 21, 255);
+    width: 100%;
+  }
+}
+
+:root * {
+  /* Pause the animation */
+  animation-play-state: paused;
+  /* Bind the animation to scroll */
+  animation-delay: calc(var(--scroll) * -1s);
+  /* These last 2 properites clean up overshoot weirdness */
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+}
+
 /* PROGRESS BAR */
 
 /* PROJECTS */
