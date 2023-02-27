@@ -212,9 +212,9 @@ a {
     font-size: 14px;
   }
 }
-
+/* 
 .containerbar {
-  /* margin: auto; */
+  margin: auto; 
   width: 300px;
   text-align: center;
   background: #eee;
@@ -376,7 +376,7 @@ a {
     width: 75%;
     background-color: #112351;
   }
-}
+} */
 
 /* Progress Bar in About */
 
@@ -1095,7 +1095,7 @@ div.concol {
   animation: progress 1s linear;
 }
 
-@keyframes progress {
+/* @keyframes progress {
   0% {
     background-color: #ff0000;
     width: 0%;
@@ -1105,7 +1105,7 @@ div.concol {
     background-color: rgb(0, 21, 255);
     width: 100%;
   }
-}
+} */
 
 :root * {
   /* Pause the animation */
