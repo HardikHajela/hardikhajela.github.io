@@ -373,7 +373,7 @@ setTimeout(function () {
 	var options = {
 		strings: [
 			//"Hardik",
-			"I'm a Business <br> Systems Analyst",
+			//"I'm a Business <br> Systems Analyst",
 			"I'm a Business <br> Analyst",
 			"I'm a Software <br> Developer",
 			"I'm a Technical <br> Project Manager",
