@@ -205,12 +205,20 @@ a {
 .p-about-skills {
   text-align: left;
 }
-
 @media (max-width: 420px) {
   .p-about-skills {
     text-align: left;
     font-size: 14px;
   }
+}
+.skills_container {
+  /* width: 100%;
+  height: 100%; */
+  border-radius: 2rem;
+  box-shadow: 0.8rem 0.8rem 1.4rem #c1c8df, -0.2rem -0.2rem 1.8rem #fff;
+  padding: 4rem;
+  display: grid;
+  align-items: center;
 }
 /* 
 .containerbar {
