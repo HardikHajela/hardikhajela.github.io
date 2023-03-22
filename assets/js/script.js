@@ -679,4 +679,3 @@ window.addEventListener('scroll', () => {
 //Progress Bar
 
 
-
