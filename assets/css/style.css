@@ -1503,7 +1503,7 @@ div.concol {
   position: relative;
   display: flex;
   flex-direction: column;
-  width: 500px;
+  width: 100%;
   background: white;
   color: currentColor;
   text-decoration: none;
@@ -1610,7 +1610,7 @@ div.concol {
 }
 
 .card__text {
-  line-height: 1.5;
+  /* line-height: 1.5; */
   margin: 0;
   opacity: 0.8;
 }
@@ -1655,7 +1655,7 @@ div.concol {
 }
 
 .author {
-  display: flex;
+  /* display: flex; */
   align-items: center;
 }
 
@@ -1669,7 +1669,7 @@ div.concol {
 }
 
 .author__content {
-  display: grid;
+  /* display: grid; */
   grid-gap: 0.4em;
   font-size: 0.9em;
 }
