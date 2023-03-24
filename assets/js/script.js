@@ -676,3 +676,42 @@ window.addEventListener('scroll', () => {
 	document.documentElement.style.setProperty('--scroll', (window.pageYOffset - offsetStart) / (document.body.offsetHeight - offsetStart - offsetEnd - window.innerHeight));
 }, false);
 //Progress Bar
+
+
+//Projects
+const h = elem => {
+	return elem.getBoundingClientRect().height;
+};
+const distance = (elemA, elemB, prop) => {
+	const sizeA = elemA.getBoundingClientRect()[prop];
+	const sizeB = elemB.getBoundingClientRect()[prop];
+	return sizeB - sizeA;
+};
+const factor = (elemA, elemB, prop) => {
+	const sizeA = elemA.getBoundingClientRect()[prop];
+	const sizeB = elemB.getBoundingClientRect()[prop];
+	return sizeB / sizeA;
+};
+document.querySelectorAll('.card').forEach(elem => {
+	const head = elem.querySelector('.card__head');
+	const image = elem.querySelector('.card__image');
+	const author = elem.querySelector('.card__author');
+	const bodyy = elem.querySelector('.card__body');
+	const f = elem.querySelector('.card__foot');
+	elem.onmouseenter = () => {
+		elem.classList.add('hover');
+		const imageScale = 1 + factor(head, bodyy, 'height');
+		image.style.transform = `scale(${imageScale})`;
+		const bodyDistance = h(f) * -1;
+		bodyy.style.transform = `translateY(${bodyDistance}px)`;
+		const authorDistance = distance(head, author, 'height');
+		author.style.transform = `translateY(${authorDistance}px)`;
+	};
+	elem.onmouseleave = () => {
+		elem.classList.remove('hover');
+		image.style.transform = `none`;
+		bodyy.style.transform = `none`;
+		author.style.transform = `none`;
+	};
+});
+//Projects
