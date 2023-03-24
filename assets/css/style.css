@@ -1499,7 +1499,6 @@ div.concol {
        }
    } */
 
-
 .card {
   position: relative;
   display: flex;
@@ -1601,6 +1600,11 @@ div.concol {
 }
 
 .card__headline {
+  /* font-size: 20px;
+  font-weight: 500;
+  font-family: Georgia, serif;
+  margin-bottom: 10px;
+  text-align: left; */
   font-weight: 400;
   margin: 0 0 0.8em;
 }
@@ -1629,6 +1633,8 @@ div.concol {
 .card__link {
   color: currentColor;
   text-decoration: none;
+  color: #fff;
+  font-size: large;
   border-bottom: 2px solid #b5272d;
 }
 
@@ -1671,6 +1677,7 @@ div.concol {
 .author__header {
   margin: 0;
   font-weight: 600;
+  text-align: left;
 }
 
 .author__subheader {
