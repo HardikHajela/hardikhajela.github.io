@@ -1505,6 +1505,8 @@ div.concol {
   flex-direction: column;
   width: 100%;
   background: white;
+  /* max-width: 750px;
+  min-width: 550px; */
   color: currentColor;
   text-decoration: none;
   overflow: hidden;
