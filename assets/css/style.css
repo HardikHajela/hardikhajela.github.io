@@ -1574,8 +1574,8 @@ div.concol {
   opacity: 0.5;
   background: linear-gradient(
     30deg,
-    rgba(26, 42, 99, 0.85),
-    rgba(26, 42, 99, 0.5)
+    rgba(4, 19, 74, 0.85),
+    rgba(33, 53, 109, 0.699)
   );
   transition-property: opacity;
   transition-delay: 0.15s;
@@ -1615,6 +1615,7 @@ div.concol {
   /* line-height: 1.5; */
   margin: 0;
   opacity: 0.8;
+  font-size: 21px;
 }
 
 .card__foot {
@@ -1657,8 +1658,9 @@ div.concol {
 }
 
 .author {
-  /* display: flex; */
+  display: flex;
   align-items: center;
+  text-align: center;
 }
 
 .author__image {
@@ -1671,19 +1673,25 @@ div.concol {
 }
 
 .author__content {
-  /* display: grid; */
+  display: grid;
   grid-gap: 0.4em;
   font-size: 0.9em;
 }
 
 .author__header {
   margin: 0;
-  font-weight: 600;
-  text-align: left;
+  font-weight: 500;
+  font-family: Georgia, serif;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(6, 20, 59, 0.918);
+  text-align: center;
+  font-size: 22px;
 }
 
 .author__subheader {
   margin: 0;
-  opacity: 0.8;
+  opacity: 0.9;
+  text-align: center;
+
 }
 /* PROJECTS */
