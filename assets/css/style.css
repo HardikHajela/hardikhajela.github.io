@@ -1542,6 +1542,7 @@ div.concol {
   left: 0;
   bottom: 0;
   color: white;
+  text-decoration: none;
   transition-property: transform;
   transition-delay: 0.15s;
 }
@@ -1615,7 +1616,7 @@ div.concol {
   /* line-height: 1.5; */
   margin: 0;
   opacity: 0.8;
-  font-size: 21px;
+  font-size: 19px;
 }
 
 .card__foot {
@@ -1624,6 +1625,7 @@ div.concol {
   right: 0;
   bottom: 0;
   padding: 0 2em 2em;
+  font-size: 20px;
   opacity: 0;
   transition-property: opacity;
 }
