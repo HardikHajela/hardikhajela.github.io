@@ -376,7 +376,8 @@ setTimeout(function () {
 			//"I'm a Business <br> Systems Analyst",
 			"I'm a Business <br> Analyst",
 			"I'm a Software <br> Developer",
-			"I'm a Technical <br> Project Manager",
+			//"I'm a Technical <br> Project Manager",
+			"I'm a Technology <br> Instructor",
 		],
 		typeSpeed: 45,
 		backSpeed: 40,
@@ -385,7 +386,7 @@ setTimeout(function () {
 	}
 
 	var typed = new Typed("#typed", options);
-}, 3060); // wait for 3 seconds
+}, 3060); // wait for 3 seconds before starting the Animation
 
 function wait(sec) {
 	const date = Date.now();
