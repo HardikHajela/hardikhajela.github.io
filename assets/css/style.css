@@ -220,6 +220,12 @@ a {
   display: grid;
   align-items: center;
 }
+
+.tab_in_tech {
+  display: inline-block;
+  margin-left: 4em;
+}
+
 /* 
 .containerbar {
   margin: auto; 
