@@ -1773,6 +1773,7 @@ div.concol {
 .shake_h3 {  
   /* text-transform: uppercase; */
   animation: 3s shake infinite alternate;
+  font-weight:700;
 }
 
 @keyframes shake {
