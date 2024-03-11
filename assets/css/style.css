@@ -1769,3 +1769,34 @@ div.concol {
   text-align: center;
 }
 /* PROJECTS */
+
+.shake_h3 {  
+  /* text-transform: uppercase; */
+  animation: 3s shake infinite alternate;
+}
+
+@keyframes shake {
+  0% {
+    transform: skewX(-25deg);
+  }
+
+  1% {
+    transform: skewX(25deg);
+  }
+
+  2% {
+    transform: skewX(-25deg);
+  }
+
+  3% {
+    transform: skewX(25deg);
+  }
+
+  4% {
+    transform: skewX(0deg);
+  }
+
+  100% {
+    transform: skewX(0deg);
+  }
+}
