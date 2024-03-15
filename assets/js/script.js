@@ -677,7 +677,7 @@ window.addEventListener('scroll', () => {
 	document.documentElement.style.setProperty('--scroll', (window.pageYOffset - offsetStart) / (document.body.offsetHeight - offsetStart - offsetEnd - window.innerHeight));
 }, false);
 //Progress Bar
- 
+
 
 //Projects
 const h = elem => {
