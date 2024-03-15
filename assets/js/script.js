@@ -679,7 +679,7 @@ window.addEventListener('scroll', () => {
 //Progress Bar
 
 
-//Projects
+//Projects 
 const h = elem => {
 	return elem.getBoundingClientRect().height;
 };
