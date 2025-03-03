@@ -1,4 +1,3 @@
-
 // NAV
 class StickyNavigation {
 
@@ -363,9 +362,9 @@ var headText = new WordShuffler(head_name, {
 	mixSpecialCharacters: true
 });
 
-console.log('waiting');
-//wait(5);
-console.log('5 Sec!');
+// console.log('waiting');
+// wait(5);
+// console.log('5 Sec!');
 
 setTimeout(function () {
 
