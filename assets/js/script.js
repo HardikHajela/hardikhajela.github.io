@@ -715,3 +715,11 @@ document.querySelectorAll('.card').forEach(elem => {
 	};
 });
 //Projects
+
+// ICONS backup 
+window.onload = function () {
+	if (!document.querySelector('.bi')) {
+	  document.querySelector('.fallback').style.display = 'inline';
+	}
+  };
+// ICONS backup 

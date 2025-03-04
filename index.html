@@ -22,14 +22,16 @@
 	<link href="assets/css/style.css" rel="stylesheet" />
 
 	<!--BootStrap CSS-->
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-		integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+	<!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous"> -->
+
+	<!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> -->
+
+	<link rel="stylesheet" href="assets/js/bootstrap-5.3.3-dist/bootstrap-5.3.3-dist/css/bootstrap.min.css">
 
 	<!--Bootstrap Icons-->
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
-
-	<!--jQuery-->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 
 </head>
 
@@ -46,12 +48,20 @@
 					<a href="#tab-hero" class="et-header__logo" id="head_name">Hardik Hajela</a> &nbsp;&nbsp;&nbsp;
 				</div>
 				<div class="col-sm">
-					<a href="https://github.com/HardikHajela" class="et-header__logo"><i class="bi bi-github"></i></a>
+					<a href="https://github.com/HardikHajela" class="et-header__logo" style="text-decoration: none;">
+						<i class="bi bi-github"></i>
+						<img src="assets/images/icons/github.svg" alt="GitHub" class="fallback" style="display: none; width: 1em">
+					</a>
 					&nbsp;&nbsp;&nbsp;
-					<a href="https://www.linkedin.com/in/hardik-hajela/" class="et-header__logo"><i
-							class="bi bi-linkedin"></i></a>
+					<a href="https://www.linkedin.com/in/hardik-hajela/" class="et-header__logo" style="text-decoration: none;">
+						<i class="bi bi-linkedin"></i>
+						<img src="assets/images/icons/linkedin.svg" alt="GitHub" class="fallback" style="display: none; width: 1em">
+					</a>
 					&nbsp;&nbsp;&nbsp;
-					<a href="#tab-contact" class="et-header__logo"><i class="bi bi-envelope-at-fill"></i></a>
+					<a href="#tab-contact" class="et-header__logo" style="text-decoration: none;">
+						<i class="bi bi-envelope-at-fill"></i>
+						<img src="path/to/github-icon.png" alt="GitHub" class="fallback" style="display: none;">
+					</a>
 					&nbsp;&nbsp;&nbsp;
 				</div>
 				<!-- </div> -->
@@ -100,18 +110,18 @@
 						<hr>
 						<p id="about-p">
 							Hi! I'm Hardik, an Honours Computer Science Graduate from the University of Windsor,
-							ON. I'm passionate about Technology but at the same time, I'm passionate about working 
+							ON. I'm passionate about Technology but at the same time, I'm passionate about working
 							with People!<br><br>
 
 							My Knowledge interests include Business Analysis, Prompt Engineering and Project Management.
 							I've also been developing Applications since I was 16 and have Experience in Data Anlytics
-							and Full Stack Software Development. If you head to the Project section, I've a couple of 
+							and Full Stack Software Development. If you head to the Project section, I've a couple of
 							Projects to showcase my work, both in Web Development, Java and SQL! Currently I'm working
 							as a Business Analyst in Toronto, ON.<br><br>
 
 							I also like reading Books, currently I'm reading Psychology of Money! I play various
 							sports including Badminton, Soccer and Cricket! I'm a Professional Photographer
-							as well, Specializing in 3D/Virtual Tours, Industrial and Portrait Photography! 
+							as well, Specializing in 3D/Virtual Tours, Industrial and Portrait Photography!
 
 							Here's a link to my
 							<a href="https://secure.plum.io/en/p/R3ELCPn1SpqfNUkf28gKGA"><img
@@ -126,10 +136,10 @@
 			<div class="container">
 				<div class="row">
 					<div class="col">
-						<h2>Skills</h2> <!--.--> 
+						<h2>Skills</h2> <!--.-->
 					</div>
 				</div>
-				<div class="row">&nbsp;</div>	
+				<div class="row">&nbsp;</div>
 				<!-- SDLC, Technology, Frameworks, BI, Collaboration, DB -->
 				<!-- <div class="row">
 					<div class="segmented-control">
@@ -169,15 +179,22 @@
 				 -->
 				<div class="row">
 					<div class="skills_container">
-						<p style="font-family: Georgia; font-size: 21px; text-align: left; margin-top: 0px; margin-right: 20px; margin-bottom: 0px; margin-left: 20px;">
-							<span class="tab_in_tech"></span>• Analysis & Mapping: Excel VBA, Power BI, Visio, Miro, Confluence, Trello, ETL <br>
-							<span class="tab_in_tech"></span>• Collaboration: Jira, Confluence, Trello, GIT, MS/Google Suite, Test Rail <br>
-							<span class="tab_in_tech"></span>• SDLC Frameworks: SCRUM, eXtreme Programming (XP), Kanban, SAFe, Less, BDD, Waterfall <br>
-							<span class="tab_in_tech"></span>• Databases: MySQL, Oracle PL/SQL, MS SQL Server/T-SQL, DB2, PostgreSQL (DB Design, Procedures, Joins, etc.) <br>
-							<span class="tab_in_tech"></span>• Technologies: Java, Python, R, PHP, JUnit, C++, HTML, CSS, JavaScript, AWS Cloud (EC2, RDS, S3, Lambda) <br>
-							<span class="tab_in_tech"></span>• AI Models: GPT-4, Llama, Mistral 7B, Gemma, Phi, Solar (Prompt Engineering/Training) <br>
+						<p
+							style="font-family: Georgia; font-size: 21px; text-align: left; margin-top: 0px; margin-right: 20px; margin-bottom: 0px; margin-left: 20px;">
+							<span class="tab_in_tech"></span>• Analysis & Mapping: Excel VBA, Power BI, Visio, Miro,
+							Confluence, Trello, ETL <br>
+							<span class="tab_in_tech"></span>• Collaboration: Jira, Confluence, Trello, GIT, MS/Google
+							Suite, Test Rail <br>
+							<span class="tab_in_tech"></span>• SDLC Frameworks: SCRUM, eXtreme Programming (XP), Kanban,
+							SAFe, Less, BDD, Waterfall <br>
+							<span class="tab_in_tech"></span>• Databases: MySQL, Oracle PL/SQL, MS SQL Server/T-SQL,
+							DB2, PostgreSQL (DB Design, Procedures, Joins, etc.) <br>
+							<span class="tab_in_tech"></span>• Technologies: Java, Python, R, PHP, JUnit, C++, HTML,
+							CSS, JavaScript, AWS Cloud (EC2, RDS, S3, Lambda) <br>
+							<span class="tab_in_tech"></span>• AI Models: GPT-4, Llama, Mistral 7B, Gemma, Phi, Solar
+							(Prompt Engineering/Training) <br>
 						</p>
-					</div>						
+					</div>
 				</div>
 			</div>
 			<!-- <div class="row">
@@ -387,7 +404,7 @@
 						<h3 class="resume-title">Professional Experience</h3>
 						<div class="resume-item">
 							<h4>Technical Business Analyst</h4>
-							<h5>06/2024 - Present</h5>
+							<h5 style="text-align: right;">06/2024 - Present</h5>
 							<p class="cv-institution"><em>Kognitive Tech., ON, Canada</em></p>
 							<ul>
 								<li>Integral part of the Launch Team for partnership with Neo Financial. Trained and
@@ -541,7 +558,7 @@
 							</ul>
 						</div>
 					</div>
-					
+
 				</div>
 			</div>
 			<p><br><br></p>
@@ -792,11 +809,12 @@
 									style="background-image: url(assets/images/UwindsorResServices.png)"></div>
 								<a class="card__author" href="https://github.com/HardikHajela/UwindsorResServices">
 									<div class="author">
-										<img src="assets/images/ResLogo.png" alt="https://thecompassionapp.myweb.cs.uwindsor.ca/"
-											class="author__image">
+										<img src="assets/images/ResLogo.png"
+											alt="https://thecompassionapp.myweb.cs.uwindsor.ca/" class="author__image">
 										<div class="author__content">
 											<p class="author__header">Uwindsor Res Services<br></p>
-											<p class="author__subheader">HTML, CSS, JavaScript, MySQL, PHP, Git, Rest, CRUD, BootStrap</p>
+											<p class="author__subheader">HTML, CSS, JavaScript, MySQL, PHP, Git, Rest,
+												CRUD, BootStrap</p>
 										</div>
 									</div>
 								</a>
@@ -804,7 +822,10 @@
 							<div class="card__body">
 								<!-- <h2 class="card__headline">Hover me</h2> -->
 								<p class="card__text">
-									This Project is made for the course COMP 4150: Advanced Database Systems offered at the University of Windsor!<a href="https://thecompassionapp.myweb.cs.uwindsor.ca/"><i class="bi bi-box-arrow-up-right"></i></a>
+									This Project is made for the course COMP 4150: Advanced Database Systems offered at
+									the University of Windsor!<a
+										href="https://thecompassionapp.myweb.cs.uwindsor.ca/"><i
+											class="bi bi-box-arrow-up-right"></i></a>
 								</p>
 							</div>
 							<div class="card__foot">
@@ -819,15 +840,15 @@
 					<div class="col-sm-6 col-md-4">
 						<div class="card">
 							<div class="card__head">
-								<div class="card__image"
-									style="background-image: url(assets/images/simplyTODO.png)"></div>
+								<div class="card__image" style="background-image: url(assets/images/simplyTODO.png)">
+								</div>
 								<a class="card__author" href="https://github.com/HardikHajela/Simply-TODO">
 									<div class="author">
-										<img src="assets/images/simplyTODOlogo.png" alt=""
-											class="author__image">
+										<img src="assets/images/simplyTODOlogo.png" alt="" class="author__image">
 										<div class="author__content">
 											<p class="author__header">Simply-TODO<br></p>
-											<p class="author__subheader">Java, Andriod studios, SQLite, GIT (GitHub Desktop), Gradle</p>
+											<p class="author__subheader">Java, Andriod studios, SQLite, GIT (GitHub
+												Desktop), Gradle</p>
 										</div>
 									</div>
 								</a>
@@ -835,8 +856,10 @@
 							<div class="card__body">
 								<!-- <h2 class="card__headline">Hover me</h2> -->
 								<p class="card__text">
-									This Android Application was made for COMP 4200: Mobile Application Development offered at the University of Windsor.
-									<a href="https://github.com/HardikHajela/Simply-TODO"><i class="bi bi-box-arrow-up-right"></i></a>
+									This Android Application was made for COMP 4200: Mobile Application Development
+									offered at the University of Windsor.
+									<a href="https://github.com/HardikHajela/Simply-TODO"><i
+											class="bi bi-box-arrow-up-right"></i></a>
 								</p>
 							</div>
 							<div class="card__foot">
@@ -851,15 +874,15 @@
 					<div class="col-sm-6 col-md-4">
 						<div class="card">
 							<div class="card__head">
-								<div class="card__image"
-									style="background-image: url(assets/images/myPortfolio.png)"></div>
+								<div class="card__image" style="background-image: url(assets/images/myPortfolio.png)">
+								</div>
 								<a class="card__author" href="https://github.com/HardikHajela/hardikhajela.github.io">
 									<div class="author">
-										<img src="assets/images/Hlogo.png" alt=""
-											class="author__image">
+										<img src="assets/images/Hlogo.png" alt="" class="author__image">
 										<div class="author__content">
 											<p class="author__header">my Portfolio<br></p>
-											<p class="author__subheader">HTML, CSS, JavaScript, jQuery, Git, GitHub Pages, BootStrap</p>
+											<p class="author__subheader">HTML, CSS, JavaScript, jQuery, Git, GitHub
+												Pages, BootStrap</p>
 										</div>
 									</div>
 								</a>
@@ -867,8 +890,10 @@
 							<div class="card__body">
 								<!-- <h2 class="card__headline">Hover me</h2> -->
 								<p class="card__text">
-									What you're visiting right now, <br>is solely developed by Me using the technologies mentioned and is hosted via GitHub Pages :)
-									<a href="https://github.com/HardikHajela/hardikhajela.github.io"><i class="bi bi-box-arrow-up-right"></i></a>
+									What you're visiting right now, <br>is solely developed by Me using the technologies
+									mentioned and is hosted via GitHub Pages :)
+									<a href="https://github.com/HardikHajela/hardikhajela.github.io"><i
+											class="bi bi-box-arrow-up-right"></i></a>
 								</p>
 							</div>
 							<div class="card__foot">
@@ -1365,8 +1390,9 @@
 				<div class="row">
 					<div class="col">
 						<!-- .  --><br>
-						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d184551.90977180185!2d-79.54286926655814!3d43.71837095834631!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4cb90d7c63ba5%3A0x323555502ab4c477!2sToronto%2C%20ON!5e0!3m2!1sen!2sca!4v1709954021787!5m2!1sen!2sca" 
-						height="80%" width="75%" style="border: 1px solid rgb(0, 0, 0);" allowfullscreen=""
+						<iframe
+							src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d184551.90977180185!2d-79.54286926655814!3d43.71837095834631!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4cb90d7c63ba5%3A0x323555502ab4c477!2sToronto%2C%20ON!5e0!3m2!1sen!2sca!4v1709954021787!5m2!1sen!2sca"
+							height="80%" width="75%" style="border: 1px solid rgb(0, 0, 0);" allowfullscreen=""
 							loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> <!-- width="350" -->
 					</div>
 					<div class="col-lg-6">
@@ -1485,8 +1511,9 @@
 					</p>
 				</div>
 			</div>
-			<h3 class = shake_h3>
-				In case I can be of any help or seem like a good fit, kindly contact me on LinkedIn or via Email!<br> Hope you
+			<h3 class=shake_h3>
+				In case I can be of any help or seem like a good fit, kindly contact me on LinkedIn or via Email!<br>
+				Hope you
 				have a Good one! Thank you for visiting my Portfolio today! :)
 			</h3>
 			<h3><!-- Inpired by ettrics, Sascha Sigl,  at CodePen -->
@@ -1504,9 +1531,19 @@
 	<script src="assets/js/typed.js@2.0.12/typed.js"></script>
 
 	<!--BootStrap JS-->
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+	<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
 		integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous">
-		</script>
+		</script> -->
+
+	<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+		crossorigin="anonymous"></script> -->
+
+	<script src="assets/js/bootstrap-5.3.3-dist/bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+
+	<!--jQuery-->
+	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script> -->
+	<script src="assets/js/jQuery/jquery-3.7.1.min.js"></script>
 
 	<!--JS-->
 	<script src="assets/js/script.js"></script>
