@@ -719,7 +719,18 @@ document.querySelectorAll('.card').forEach(elem => {
 // ICONS backup 
 window.onload = function () {
 	if (!document.querySelector('.bi')) {
+	  document.getElementById('fallback').style.display = 'inline-block';
+	}
+  };
+
+  window.onload = function () {
+	let testIcon = document.querySelector('.bi.bi-github');
+	let computedStyle = window.getComputedStyle(testIcon, '::before');
+	let iconContent = computedStyle.content;
+  
+	if (!iconContent || iconContent === 'none' || iconContent === '""') {
 	  document.querySelector('.fallback').style.display = 'inline';
 	}
   };
+  
 // ICONS backup 
