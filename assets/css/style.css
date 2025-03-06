@@ -808,7 +808,7 @@ img.portfolio1 {
   transform: translate3d(0, 0, 0);
 }
 
-.cont.s--el-active .el__index {
+.cont.s--el-active .el__index { 
   transition: transform 0.5s, opacity 0.3s;
   opacity: 0;
 }
